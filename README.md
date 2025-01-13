@@ -11,7 +11,7 @@
 
 1. `clone`本项目到服务器
    ```shell
-   git clone https://github.com/WankkoRee/SchoolPowerCrawlerAndDisplayor.git
+   git clone https://github.com/admbb/charge.git
    ```
 2. 修改`charge`文件夹下`config.ini`
    ```ini
