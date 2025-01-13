@@ -18,8 +18,8 @@
    # 本处只列出十分建议更改的选项，其他选项请根据自身需求更改
    [API]
     token = bearer eyJh # 自己抓包获取
-    url = https://wxxyshall.usts.edu.cn/charge/feeitem/getThirdData # 接口地址，按需更改
-    referer = https://wxxyshall.usts.edu.cn/charge-app/
+    url = https://wxxyshall.usts.edu.cn/charge/feeitem/getThirdData # 接口地址，一般无需更改
+    referer = https://wxxyshall.usts.edu.cn/charge-app/  # 接口地址，一般无需更改
     feeitemid = # 自己抓包获取
     type = IEC
     level = # 自己抓包获取
