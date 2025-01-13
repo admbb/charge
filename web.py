@@ -1,10 +1,3 @@
-"""
-===========================
-@author: csn
-@time: 2024/7/6  23:58
-@email: csnadmbb@gmail.com
-===========================
-"""
 from flask import Flask, request, flash, render_template_string, jsonify
 from configparser import ConfigParser
 from datetime import datetime, timedelta
