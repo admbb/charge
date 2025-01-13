@@ -1,0 +1,11 @@
+version: '3'
+services:
+  charge-monitor:
+    build: .
+    ports:
+      - "13333:13333"
+    volumes:
+      - ./config.ini:/app/config.ini
+      - ./charge.csv:/app/charge.csv
+      - ./logs:/var/log/
+    restart: unless-stopped 
