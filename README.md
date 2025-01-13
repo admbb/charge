@@ -32,10 +32,10 @@
 3. 使用`docker`启动本项目
    ```shell
    docker run -d \
-  -p 13333:13333 \
-  -v $(pwd)/config.ini:/app/config.ini \
-  -v $(pwd)/charge.csv:/app/charge.csv \
-  charge:latest
+     -p 13333:13333 \
+     -v $(pwd)/config.ini:/app/config.ini \
+     -v $(pwd)/charge.csv:/app/charge.csv \
+       charge:latest
    ```
    docker镜像可以自己构建`docker build -t charge:latest .`，也可以用我构建的。
 
