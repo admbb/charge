@@ -35,7 +35,7 @@
      -p 13333:13333 \
      -v $(pwd)/config.ini:/app/config.ini \
      -v $(pwd)/charge.csv:/app/charge.csv \
-       charge:latest
+     admbb99/charge:latest
    ```
    docker镜像可以自己构建`docker build -t charge:latest .`，也可以用我构建的。
 
