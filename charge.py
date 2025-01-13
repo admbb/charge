@@ -1,10 +1,3 @@
-"""
-===========================
-@author: csn
-@time: 2022/4/6  23:58
-@email: csnadmbb@gmail.com
-===========================
-"""
 import requests
 import time
 import csv
