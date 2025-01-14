@@ -33,7 +33,7 @@
      -p 13333:13333 \
      -v $(pwd)/config.ini:/app/config.ini \
      -v $(pwd)/charge.csv:/app/charge.csv \
-     admbb99/charge:latest
+     admbb99/charge:1.0
    ```
    docker镜像可以自己构建`docker build -t charge:latest .`，也可以用我构建的。
 4. 访问网站(ip:13333)检查是否正常
